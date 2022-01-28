@@ -3,7 +3,7 @@
 :root{
     --primary-color : #ea580c;
     --secondary-color:#9333ea;
-
+    --graylight-color:grey;
 }
 
 body{
@@ -59,3 +59,72 @@ hr{
      display: inline;
      padding: 0rem 0.5rem;
  }
+
+ /* navigation */
+
+ .navigation{
+     background-color: var(--primary-color);
+     color: white;
+     padding: 1rem;
+     border-bottom-left-radius: 1rem;
+ }
+
+ .navigation .nav-brand{
+     font-weight: bold;
+ }
+
+ .navigation .link {
+     color: white;
+ }
+
+ .navigation .nav-pills{
+     text-align: right;
+ }
+
+ .navigation .link-active{
+     font-weight: 600;
+ }
+
+ /* header */
+
+ .hero {
+     padding: 2rem;
+ }
+
+ .hero .hero-img {
+     max-width: 350px;
+     display: block;
+     margin: auto;
+
+ }
+
+ .hero .hero-heading{
+     color: var(--graylight-color);
+ }
+
+ .hero .heading-highlight{
+     color: var(--secondary-color) ;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
