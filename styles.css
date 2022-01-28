@@ -100,31 +100,45 @@ hr{
 
  .hero .hero-heading{
      color: var(--graylight-color);
+     text-align: center;
  }
 
  .hero .heading-highlight{
      color: var(--secondary-color) ;
  }
+/* section */
+
+.section{
+    padding-bottom: 2rem;
+}
 
 
+ .section h1{
+     text-align: center;
+     padding: 2rem;
+ }
 
+ .ow{
+     background-color: wheat;
+ }
 
+/* footer */
 
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-bottom-right-radius: 1rem;
+}
 
+.footer .link{
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer ul{
+    padding-inline-start: 0px;
+}
 
 
 
